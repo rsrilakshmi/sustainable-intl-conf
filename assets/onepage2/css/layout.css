@@ -1910,7 +1910,23 @@ li {
 }
 
 a.email {
-    color: #A2BD56;
+    color: rgb(142, 232, 119);
 }
 
 .row.contact-details {margin-bottom: 50px;}
+
+.team-about.important-dates {
+    background: rgba(164, 242, 107, 0.5);
+}
+
+.team-about time {
+    color: rgb(142, 232, 119);
+}
+
+.highlight {
+    color: rgb(142, 232, 119) !important;
+}
+
+a.link {
+    color: #f5f5f5;
+}
