@@ -1527,10 +1527,10 @@ a:focus {
   /* Prcing Red */
   }
   .pricing-bg .pricing {
-    padding: 50px;
+    padding: 20px;
     text-align: center;
     border: 2px solid #aebcc7;
-    padding-top: 30px;
+    padding-top: 10px;
     }
     .pricing-bg .pricing img {
       width: 60px;
@@ -1540,7 +1540,7 @@ a:focus {
       font-size: 27px;
       margin: 0 0 15px;
       color: #3f5263;
-      min-height: 60px;
+      min-height: 100px;
       }
     .pricing-bg .pricing span {
       display: block;
@@ -1550,7 +1550,7 @@ a:focus {
       color: #3f5263; }
     .pricing-bg .pricing .pricing-features {
       padding: 0;
-      margin: 35px 0;
+      margin: 35px 0 0 0;
       list-style: none;
       min-height: 255px;
       }
@@ -1558,7 +1558,9 @@ a:focus {
         padding: 3px 0;
         font-size: 16px;
         text-transform: capitalize;
-        color: #8693a7; }
+        color: #8693a7;
+        margin: 5px 5px;
+        }
   .pricing-bg .pricing-red {
     border: none;
     padding: 80px 0;
@@ -1877,7 +1879,7 @@ li {
 }
 
 .payment-details {
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .navbar-header{
@@ -1904,7 +1906,7 @@ li {
 }
 
 .btn-register {
-  margin: 20px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
   color:#fff;
   background : #d15d5d;
 }
@@ -1929,4 +1931,13 @@ a.email {
 
 a.link {
     color: #f5f5f5;
+}
+
+.participant-type {
+    /* min-height: 250px; */
+    /* display: block; */
+}
+
+.pay-online {
+    margin-top: 40px !important;
 }
